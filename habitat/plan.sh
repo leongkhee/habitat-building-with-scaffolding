@@ -14,7 +14,7 @@ pkg_origin=sysadmin_tryhabitat
 
 # Required.
 # Sets the version of the package
-pkg_version="0.1.0"
+pkg_version="0.2.0"
 
 # Optional.
 # The name and email address of the package maintainer.
@@ -55,7 +55,8 @@ pkg_shasum="TODO"
 # `origin/package/version/release`.
 
 pkg_deps=(core/glibc)
-pkg_deps=(core/imagemagick) 
+pkg_deps=(sysadmin_tryhabitat/imagemagick)
+#pkg_deps=(core/imagemagick) 
 # Optional.
 # An array of the package dependencies needed only at build time.
 pkg_build_deps=(core/make core/gcc)
